@@ -1,7 +1,7 @@
 package ir.alirezaeasazade.koin
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import org.koin.android.ext.android.get
 
 class MainActivity : AppCompatActivity() {
@@ -10,7 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val view: View = get("view")
+        val aaaaa: AAAAA = get()
+        aaaaa.printaaa()
+
 
     }
 }
